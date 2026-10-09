@@ -8,7 +8,7 @@ Let players book courts at your venue by asking Meta Muse.
 
 Court Connector is an MCP server template for court booking on [Meta Muse](https://muse.ai). You clone it, describe your venue in one YAML file, deploy it to Vercel, and submit it to Muse's connector directory. It runs on the free tiers of Supabase and Vercel.
 
-This repository holds the documentation and demo. The source code is a paid template: **[Get Court Connector →](https://spacetimebender.gumroad.com/l/xdrqen)**
+This repository holds the documentation and demo. The source code is a paid template: **[Get Court Connector →](https://spacetimebender.gumroad.com/l/xdrqen)** · Website: [court-connector.framer.website](https://court-connector.framer.website)
 
 ## What players can say
 
