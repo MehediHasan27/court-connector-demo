@@ -30,7 +30,7 @@ Claude Code: `claude mcp add --transport http court-demo https://court-connector
 
 ## Tools
 
-Eight MCP tools, each labelled with the permission class Muse's review expects.
+Nine MCP tools, each labelled with the permission class Muse's review expects.
 
 | Tool | Muse class | What it does |
 |---|---|---|
@@ -39,6 +39,7 @@ Eight MCP tools, each labelled with the permission class Muse's review expects.
 | `create_booking` | Sensitive write | Turns a quote into a confirmed booking. Muse asks the player to confirm every time. |
 | `modify_booking` | Write | Moves a booking to another slot in one step. |
 | `cancel_booking` | Write | Cancels and frees the slot for the next player. |
+| `get_booking` | Read | Looks up a booking and its status (confirmed or cancelled). |
 | `join_waitlist` | Write | Waits for a full time window; optional email or SMS alert with consent. |
 | `leave_waitlist` | Write | Leaves the waitlist and releases any held slot. |
 | `get_waitlist_status` | Read | Shows the player's waitlist entries and any slot held for them. |
