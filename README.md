@@ -10,6 +10,16 @@ Court Connector is an MCP server template for court booking on [Meta Muse](https
 
 This repository holds the documentation and demo. The source code is a paid template: **[Get Court Connector →](https://spacetimebender.gumroad.com/l/xdrqen)** · Website: [court-connector.framer.website](https://court-connector.framer.website)
 
+## Try it live
+
+Add this endpoint to Claude or any MCP client. No login needed. It runs on sample data and resets every 30 minutes:
+
+```
+https://court-connector-demo.vercel.app/api/mcp
+```
+
+Claude Code: `claude mcp add --transport http court-demo https://court-connector-demo.vercel.app/api/mcp`
+
 ## What players can say
 
 - "Show me open courts tomorrow evening."
